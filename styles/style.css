@@ -178,10 +178,53 @@ hr {
         display: block;
         border: 0.5px solid rgb(254, 163, 1);
         margin-top: 12px;
+        margin-bottom: 28px;
     }
 
     .hero {
-        max-width: 1158.61px;
-        height: 575px;
+        flex-direction: column-reverse;
+        max-width: 357px;
+        height: 725px;
+        gap: 20px;
     }
+
+    .hero img {
+        width: 336.58px;
+        height: 413px;
+    }
+
+    .hero .hero-content {
+        text-align: center;
+    }
+
+    .hero .hero-content h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .hero .hero-content p {
+        color: rgb(17, 17, 17);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: center;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
+    .hero .hero-content button {
+        border-radius: 8px;
+        background: rgb(17, 17, 17);
+        width: 131px;
+        height: 42px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        padding: 6px 24px;
+    }
+
+
 }
