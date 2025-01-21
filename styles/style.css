@@ -147,6 +147,103 @@ hr {
     text-align: center;
 }
 
+footer {
+    background: rgb(1, 172, 253);
+    max-width: 100vw;
+    height: 519px;
+    /* margin: auto; */
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 1160px;
+    height: 222px;
+    margin: 0 auto;
+    /* gap: 130px; */
+    padding-top: 123px;
+    /* padding-left: 140px;
+    padding-right: 230px; */
+    padding-bottom: 174px;
+    /* margin: 123px 228px 174px 140px; */
+    /* padding: 125px 140px; */
+}
+
+footer .footer-container .footer-brand .brand-title {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-left: -5px;
+}
+
+footer .footer-container .footer-brand .brand-title img {
+    width: 82.9px;
+    height: 81.65px;
+}
+
+footer .footer-container .footer-brand .brand-title h3 {
+    color: rgb(255, 255, 255);
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+}
+
+footer .footer-container .footer-brand p {
+    max-width: 399.02px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 35px;
+}
+
+footer .footer-container .footer-links h3 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+footer .footer-container .footer-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+footer .footer-container .footer-links ul li {
+    list-style: none;
+}
+
+footer .footer-container .footer-links ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+footer .footer-container .footer-social {
+    /* margin-right: 88px; */
+    /* margin-left: 30px; */
+}
+
+footer .footer-container .footer-social h3 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+footer .footer-container .footer-social .social-img {
+    display: flex;
+    gap: 10px;
+}
+
+
 /* responsive for mobile devices */
 @media screen and (max-width: 576px) {
     header nav {
