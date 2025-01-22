@@ -162,7 +162,7 @@ main .curriculum .curriculum-content {
 
 main .curriculum .curriculum-content h2 {
     color: rgb(0, 0, 0);
-    font-size: 46px;
+    font-size: 2.9rem;
     font-weight: 700;
     line-height: 57.5px;
     text-align: center;
@@ -191,7 +191,7 @@ main .curriculum .curriculum-content .card-container .card-1 {
 main .curriculum .curriculum-content .card-container .card-1 a {
     text-decoration: none;
     color: rgb(100, 200, 255);
-    font-size: 15.09px;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 28.3px;
 }
@@ -207,7 +207,7 @@ main .curriculum .curriculum-content .card-container .card-2 {
 main .curriculum .curriculum-content .card-container .card-2 a {
     text-decoration: none;
     color: rgb(240, 170, 0);
-    font-size: 15.09px;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 28.3px;
 }
@@ -223,7 +223,7 @@ main .curriculum .curriculum-content .card-container .card-3 {
 main .curriculum .curriculum-content .card-container .card-3 a {
     text-decoration: none;
     color: rgb(135, 0, 255);
-    font-size: 15.09px;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 28.3px;
 }
@@ -234,7 +234,7 @@ main .curriculum .curriculum-content .card-container .card img {
 
 main .curriculum .curriculum-content .card-container .card h3 {
     color: rgb(32, 32, 32);
-    font-size: 24.52px;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 30.65px;
     margin-top: 32px;
@@ -243,7 +243,7 @@ main .curriculum .curriculum-content .card-container .card h3 {
 main .curriculum .curriculum-content .card-container .card p {
     color: rgb(128, 128, 128);
     font-family: Raleway;
-    font-size: 15.09px;
+    font-size: 0.95rem;
     font-weight: 500;
     line-height: 28.3px;
     margin-top: 33px;
@@ -274,7 +274,7 @@ main .curriculum .curriculum-content .curriculum-btn button {
     border-radius: 30px;
     background: rgb(254, 163, 1);
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
     line-height: 24px;
 }
@@ -309,7 +309,7 @@ main .story .story-container {
 
 main .story .story-container .story-content>h3 {
     color: rgb(0, 0, 0);
-    font-size: 46px;
+    font-size: 2.87rem;
     font-weight: 700;
     line-height: 57.5px;
     text-align: center;
@@ -348,7 +348,7 @@ main .story .story-container .card-container .card button {
     top: 157px;
     color: rgb(255, 255, 255);
     font-family: Raleway;
-    font-size: 15.34px;
+    font-size: 0.95rem;
     font-weight: 500;
     line-height: 28.76px;
     /* margin-top: -200px; */
@@ -381,7 +381,7 @@ main .story .story-container .card-container .card-5 {
 main .story .story-container .card-container .card h3 {
     position: relative;
     color: rgb(0, 0, 0);
-    font-size: 15.34px;
+    font-size: 0.95rem;
     font-weight: 700;
     line-height: 28.76px;
     text-align: left;
@@ -416,7 +416,7 @@ main .story .story-container .story-btn {
     padding: 10px;
     background: rgb(17, 17, 17);
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     line-height: 30px;
     text-align: center;
@@ -429,7 +429,7 @@ main .story .story-container .card-container .card-1 button {
 }
 
 main .story .story-container .card-container .card-1 h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 38.35px;
     margin-top: 60px;
@@ -438,7 +438,7 @@ main .story .story-container .card-container .card-1 h3 {
 main .story .story-container .card-container .card-1 p {
     color: rgb(102, 102, 102);
     font-family: Raleway;
-    font-size: 15.34px;
+    font-size: 0.95rem;
     font-weight: 500;
     line-height: 28.76px;
     margin: 48px 68px 34px 38px;
@@ -643,7 +643,7 @@ footer .footer-container .footer-social .social-img {
     }
 
     main .curriculum .curriculum-content h2 {
-        font-size: 26px;
+        font-size: 1.62rem;
         font-weight: 700;
         line-height: 33px;
         text-align: center;
@@ -667,7 +667,7 @@ footer .footer-container .footer-social .social-img {
     main .curriculum .curriculum-content .card-container .card-1 a {
         text-decoration: none;
         color: rgb(100, 200, 255);
-        font-size: 10.22px;
+        font-size: 0.64rem;
         font-weight: 700;
         line-height: 19.16px;
     }
@@ -675,7 +675,7 @@ footer .footer-container .footer-social .social-img {
     main .curriculum .curriculum-content .card-container .card-2 a {
         text-decoration: none;
         color: rgb(240, 170, 0);
-        font-size: 10.22px;
+        font-size: 0.64rem;
         font-weight: 700;
         line-height: 19.16px;
     }
@@ -683,7 +683,7 @@ footer .footer-container .footer-social .social-img {
     main .curriculum .curriculum-content .card-container .card-3 a {
         text-decoration: none;
         color: rgb(135, 0, 255);
-        font-size: 10.22px;
+        font-size: 0.64rem;
         font-weight: 700;
         line-height: 19.16px;
     }
@@ -695,14 +695,14 @@ footer .footer-container .footer-social .social-img {
     }
 
     main .curriculum .curriculum-content .card-container .card h3 {
-        font-size: 16.6px;
+        font-size: 1rem;
         font-weight: 700;
         line-height: 20.75px;
         margin-top: 22px;
     }
 
     main .curriculum .curriculum-content .card-container .card p {
-        font-size: 10.22px;
+        font-size: 0.64rem;
         font-weight: 500;
         line-height: 19.16px;
         margin-top: 22px;
@@ -725,7 +725,7 @@ footer .footer-container .footer-social .social-img {
 
     main .story .story-container .story-content>h3 {
         color: rgb(0, 0, 0);
-        font-size: 26px;
+        font-size: 1.62rem;
         font-weight: 700;
         line-height: 57.5px;
         text-align: center;
@@ -761,7 +761,7 @@ footer .footer-container .footer-social .social-img {
         top: 93.96px;
         color: rgb(255, 255, 255);
         font-family: Raleway;
-        font-size: 9.13px;
+        font-size: 0.57rem;
         font-weight: 500;
         line-height: 17.12px;
     }
@@ -769,7 +769,7 @@ footer .footer-container .footer-social .social-img {
     main .story .story-container .card-container .card h3 {
         color: rgb(0, 0, 0);
         font-family: Quicksand;
-        font-size: 9.13px;
+        font-size: 0.57rem;
         font-weight: 700;
         line-height: 17.12px;
         margin-top: 25px;
@@ -795,7 +795,7 @@ footer .footer-container .footer-social .social-img {
         height: 30px;
         padding: 0px;
         color: rgb(255, 255, 255);
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 700;
         line-height: 30px;
         margin: 20px auto 0 auto;
@@ -808,14 +808,18 @@ footer .footer-container .footer-social .social-img {
     footer {
         max-width: 100vw;
         height: 665px;
+
+        /* margin: 0 auto; */
     }
 
     footer .footer-container {
+        max-width: 358px;
         flex-direction: column;
         gap: 15px;
         padding-top: 65px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 0 auto;
+        /* margin-left: 20px; */
+        /* margin-right: 20px; */
     }
 
     footer .footer-container .footer-brand .brand-title {
