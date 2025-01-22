@@ -258,7 +258,8 @@ main .curriculum .curriculum-content .card-container .card .card-link {
 
 main .curriculum .curriculum-content .curriculum-btn {
     margin-top: 80px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    padding-bottom: 60px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -276,6 +277,163 @@ main .curriculum .curriculum-content .curriculum-btn button {
     font-size: 24px;
     font-weight: 900;
     line-height: 24px;
+}
+
+main .story {
+    position: relative;
+    max-width: 1440px;
+    height: 1020px;
+    margin: 0 auto;
+    background: url(../assets/bg.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+main .story::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    z-index: -1;
+}
+
+
+main .story .story-container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+main .story .story-container .story-content>h3 {
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+main .story .story-container .card-container {
+    display: grid;
+    grid-template-areas:
+        "card1 card2 card3"
+        "card1 card4 card5";
+    gap: 20px;
+}
+
+main .story .story-container .card-container .card {
+    position: relative;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+main .story .story-container .card-container .card img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+main .story .story-container .card-container .card button {
+    position: absolute;
+    border-radius: 47.93px;
+    border: none;
+    background: rgb(149, 178, 38);
+    /* padding: 10px 20px; */
+    width: 174.51px;
+    height: 38.35px;
+    left: 34px;
+    top: 157px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    /* margin-top: -200px; */
+    z-index: 1;
+    /* margin-right: 35px;
+    margin-left: 35px; */
+    text-align: center;
+}
+
+main .story .story-container .card-container .card-1 {
+    grid-area: card1;
+}
+
+main .story .story-container .card-container .card-2 {
+    grid-area: card2;
+}
+
+main .story .story-container .card-container .card-3 {
+    grid-area: card3;
+}
+
+main .story .story-container .card-container .card-4 {
+    grid-area: card4;
+}
+
+main .story .story-container .card-container .card-5 {
+    grid-area: card5;
+}
+
+main .story .story-container .card-container .card h3 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    text-align: left;
+    margin-top: 38px;
+    margin-bottom: 28px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+main .story .story-container .card-container .card-3 button {
+    background: rgb(93, 88, 240);
+}
+
+main .story .story-container .story-btn {
+    /* margin-top: 80px;
+    margin-bottom: 60px; */
+    display: block;
+    width: 197px;
+    height: 50px;
+    /* margin: 80px auto 60px auto; */
+    margin: 80px auto 0 auto;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+main .story .story-container .card-container .card-1 button {
+    background: rgb(60, 216, 232);
+    left: 34px;
+    top: 317px;
+}
+
+main .story .story-container .card-container .card-1 h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    margin-top: 60px;
+}
+
+main .story .story-container .card-container .card-1 p {
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    margin: 48px 68px 34px 38px;
 }
 
 footer {
@@ -482,6 +640,7 @@ footer .footer-container .footer-social .social-img {
 
     main .curriculum .curriculum-content .card-container .card {
         max-width: 357px;
+        /* max-width: 95%; */
         height: 321px;
         text-align: center;
         padding: 36px 28px;
