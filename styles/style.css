@@ -378,8 +378,10 @@ footer .footer-container .footer-social .social-img {
 /* responsive for mobile devices */
 @media screen and (max-width: 576px) {
     header nav {
+        max-width: 358px;
         padding: 0;
-        margin: 12px 16px;
+        /* margin: 12px 16px; */
+        margin: 12px auto;
     }
 
     header nav .nav-brand img {
@@ -407,6 +409,7 @@ footer .footer-container .footer-social .social-img {
         border: 0.5px solid rgb(254, 163, 1);
         margin-top: 12px;
         margin-bottom: 28px;
+        transform: scaleY(0.5);
     }
 
     .hero {
@@ -452,6 +455,89 @@ footer .footer-container .footer-social .social-img {
         line-height: 30px;
         text-align: center;
         padding: 6px 24px;
+    }
+
+    main .curriculum {
+        max-width: 390px;
+        height: 100%;
+        margin: 0 auto;
+        background-image: url(../assets/bg.png);
+        background-size: contain;
+        background-position: left;
+    }
+
+    main .curriculum .curriculum-content h2 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 33px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    main .curriculum .curriculum-content .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    main .curriculum .curriculum-content .card-container .card {
+        max-width: 357px;
+        height: 321px;
+        text-align: center;
+        padding: 36px 28px;
+    }
+
+    main .curriculum .curriculum-content .card-container .card-1 a {
+        text-decoration: none;
+        color: rgb(100, 200, 255);
+        font-size: 10.22px;
+        font-weight: 700;
+        line-height: 19.16px;
+    }
+
+    main .curriculum .curriculum-content .card-container .card-2 a {
+        text-decoration: none;
+        color: rgb(240, 170, 0);
+        font-size: 10.22px;
+        font-weight: 700;
+        line-height: 19.16px;
+    }
+
+    main .curriculum .curriculum-content .card-container .card-3 a {
+        text-decoration: none;
+        color: rgb(135, 0, 255);
+        font-size: 10.22px;
+        font-weight: 700;
+        line-height: 19.16px;
+    }
+
+    main .curriculum .curriculum-content .card-container .card img {
+        width: 92px;
+        height: 92px;
+        margin-top: 0;
+    }
+
+    main .curriculum .curriculum-content .card-container .card h3 {
+        font-size: 16.6px;
+        font-weight: 700;
+        line-height: 20.75px;
+        margin-top: 22px;
+    }
+
+    main .curriculum .curriculum-content .card-container .card p {
+        font-size: 10.22px;
+        font-weight: 500;
+        line-height: 19.16px;
+        margin-top: 22px;
+    }
+
+    main .curriculum .curriculum-content .card-container .card .card-link {
+        margin-top: 22px;
+        margin-bottom: 36px;
+    }
+
+    main .curriculum .curriculum-content .curriculum-btn {
+        display: none;
     }
 
     footer {
