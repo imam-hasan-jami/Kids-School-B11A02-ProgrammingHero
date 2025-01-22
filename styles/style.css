@@ -560,6 +560,7 @@ footer .footer-container .footer-social .social-img {
 
     header nav .nav-menu {
         display: block;
+        margin-right: 7px;
     }
 
     hr {
