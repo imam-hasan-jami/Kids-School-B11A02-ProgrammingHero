@@ -83,6 +83,13 @@ header nav .nav-btn button {
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 30px;
+    cursor: pointer;
+}
+
+header nav .nav-btn button:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 header nav .nav-menu {
@@ -146,6 +153,13 @@ hr {
     width: 197px;
     height: 50px;
     text-align: center;
+    cursor: pointer;
+}
+
+.hero .hero-content button:hover {
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 main .curriculum {
@@ -188,6 +202,10 @@ main .curriculum .curriculum-content .card-container .card-1 {
     background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
+main .curriculum .curriculum-content .card-container .card-1:hover {
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);  
+}
+
 main .curriculum .curriculum-content .card-container .card-1 a {
     text-decoration: none;
     color: rgb(100, 200, 255);
@@ -204,6 +222,10 @@ main .curriculum .curriculum-content .card-container .card-2 {
     background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
+main .curriculum .curriculum-content .card-container .card-2:hover {
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+
 main .curriculum .curriculum-content .card-container .card-2 a {
     text-decoration: none;
     color: rgb(240, 170, 0);
@@ -218,6 +240,10 @@ main .curriculum .curriculum-content .card-container .card-3 {
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+main .curriculum .curriculum-content .card-container .card-3:hover {
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 
 main .curriculum .curriculum-content .card-container .card-3 a {
@@ -277,6 +303,13 @@ main .curriculum .curriculum-content .curriculum-btn button {
     font-size: 1.5rem;
     font-weight: 900;
     line-height: 24px;
+    cursor: pointer;
+}
+
+main .curriculum .curriculum-content .curriculum-btn button:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 main .story {
@@ -356,6 +389,13 @@ main .story .story-container .card-container .card button {
     /* margin-right: 35px;
     margin-left: 35px; */
     text-align: center;
+    cursor: pointer;
+}
+
+main .story .story-container .card-container .card button:hover {
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 main .story .story-container .card-container .card-1 {
@@ -420,6 +460,13 @@ main .story .story-container .story-btn {
     font-weight: 700;
     line-height: 30px;
     text-align: center;
+    cursor: pointer;
+}
+
+main .story .story-container .story-btn:hover {
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 main .story .story-container .card-container .card-1 button {
