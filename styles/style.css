@@ -573,8 +573,10 @@ footer .footer-container .footer-social .social-img {
 
     .hero {
         flex-direction: column-reverse;
+        justify-content: unset;
         max-width: 357px;
-        height: 725px;
+        /* height: 725px; */
+        height: 100%;
         gap: 20px;
     }
 
